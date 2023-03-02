@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="javascript" href="httpscheck.js" />
+    <script src="httpscheck.js"></script>
+    <title>Document 2 button links</title>
+  </head>
+  <body>
+    <a href="">
+      <button id="btnPrompt">Start</button>
+    </a>
+    <input id="elem1" type="text" name="quantity" placeholder="Количество" />
+    <input id="butt" type="button" value="Кнопка" /><br /><br />
+    <div id="str"></div>
+    <!-- <input
+      id="btnPrompt"
+      type="button"
+      onclick="location.href='http://127.0.0.1:5500/';"
+      value="Go to from JS"
+    /> -->
+
+    <!-- <form id="input_text">
+      <input type="submit" id="btnPrompt" />
+    </form>-->
+  </body>
+  <!-- <script>
+    let inputtext = document.getElementById("jsbtn");
+    console.log(inputtext);
+
+    let http_selector = document
+      .querySelectorAll('[href^="http:"')
+      .forEach((el) => {
+        el.href = el.href.replace(/^http/, "https");
+      });
+
+    console.log(http_selector);
+  </script> -->
+</html>
